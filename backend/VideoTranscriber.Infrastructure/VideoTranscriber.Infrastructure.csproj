@@ -2,6 +2,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VideoTranscriber.Application\VideoTranscriber.Application.csproj" />
+    <ProjectReference Include="..\VideoTranscriber.Domain\VideoTranscriber.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
   <PropertyGroup>
